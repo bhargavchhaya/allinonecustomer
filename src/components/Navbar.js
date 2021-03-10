@@ -58,6 +58,26 @@ class Navbar extends Component {
                                 Home
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/about-us" className="nav-link">
+                                About
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/services" className="nav-link">
+                                Services
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/products" className="nav-link">
+                                Products
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/contact-us" className="nav-link">
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                     {localStorage.usertoken ? userLink: loginRegLink}
                 </div>
